@@ -127,3 +127,30 @@ sm4 <- summary(fit_msm4)
 print(sm4)
 
 
+#treatment effects by   RPH or non-RPH------------------------------------------------
+
+working.msm<-"Y ~ -1 + year5 + year10 +  year15 + year20 + assigned_treatment + year5:RPH +year10:RPH+ year15:RPH + year20:RPH + assigned_treatment:RPH "
+
+set.seed(12345)
+fit_msm5 <- ltmleMSM(
+  data             = wide_df_ltmle,
+  Anodes           = Anodes,
+  Cnodes           = Cnodes,
+  Lnodes           = Lnodes_filtered,
+  Ynodes           = Ynodes,
+  final.Ynodes     = final.Ynodes,
+  survivalOutcome  = TRUE,
+  regimes          = regimes,
+  summary.measures = summary.measures,
+  working.msm      = working.msm,
+  Qform            = Qform,
+  gform            = gform,
+  deterministic.g.function = MaintainTreatment,
+  SL.library       = mylibrary2,
+  gbounds          = c(0.01, 1),
+  variance.method = "ic"
+)
+
+
+sm5 <- summary(fit_msm5)
+print(sm5)
