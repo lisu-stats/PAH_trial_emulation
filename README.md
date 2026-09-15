@@ -36,20 +36,30 @@ Manuscript currently in preparation.
 
 ```text
 .
-
 ├── R/
-│   ├── 01_data_preparation.R
-│   ├── 02_primary_analysis.R
-│   ├── 03_secondary_analyses.R
-│   ├── 04_evalue_analysis.R
-│   └── helper_functions.R
-├── output/
-│   ├── figures/
-│   └── tables/
-├── README.md
+│   ├── 0_PAH_datamanip.R
+│   ├── 1_PAH_LTMLE_preparation.R
+│   ├── 2_PAH_LTMLE_modelfit.R
+│   ├── 3_PAH_group_jackknife.R
+│   ├── 4_PAH_sensitivity_analysis.R
+│   ├── 5_make_forest_plots.R
+│   └── 6_PAH_risk_ratios.R
+├── CITATION.cff
 ├── LICENSE
-└── CITATION.cff
+└── README.md
 ```
+
+### Script descriptions
+
+| Script | Purpose |
+|----------|----------|
+| `0_PAH_datamanip.R` | Data cleaning, harmonisation, and longitudinal dataset construction |
+| `1_PAH_LTMLE_preparation.R` | Preparation of covariates, treatment indicators, censoring variables, and LTMLE inputs |
+| `2_PAH_LTMLE_modelfit.R` | Main LTMLE analyses and marginal structural model estimation; subgroup analyses |
+| `3_PAH_group_jackknife.R` | Delete-a-group jackknife variance estimation and confidence intervals |
+| `4_PAH_sensitivity_analysis.R` | Sensitivity analyses using E-values |
+| `5_make_forest_plots.R` | Generation of manuscript and supplementary figures |
+| `6_PAH_risk_ratios.R` | Calculation of risk ratios from primary analysis results |
 
 ---
 
@@ -103,13 +113,27 @@ parallel
 
 ## Reproducibility
 
-The scripts are intended to be run sequentially:
+The analysis scripts are intended to be run sequentially:
 
 ```r
-source("R/01_data_preparation.R")
-source("R/02_primary_analysis.R")
-source("R/03_secondary_analyses.R")
-source("R/04_evalue_analysis.R")
+source("R/0_PAH_datamanip.R")
+source("R/1_PAH_LTMLE_preparation.R")
+source("R/2_PAH_LTMLE_modelfit.R")
+source("R/3_PAH_group_jackknife.R")
+source("R/4_PAH_sensitivity_analysis.R")
+source("R/5_make_forest_plots.R")
+source("R/6_PAH_risk_ratios.R")
+```
+
+### Script overview
+
+- `0_PAH_datamanip.R` – data cleaning and longitudinal data preparation.
+- `1_PAH_LTMLE_preparation.R` – construction of treatment, censoring, and covariate histories for LTMLE.
+- `2_PAH_LTMLE_modelfit.R` – primary LTMLE analyses and marginal structural model estimation and subgroup analyese.
+- `3_PAH_group_jackknife.R` – grouped jackknife variance estimation and confidence intervals.
+- `4_PAH_sensitivity_analysis.R` – sensitivity analyses using E-values.
+- `5_make_forest_plots.R` – generation of figures used in the manuscript and supplementary materials.
+- `6_PAH_risk_ratios.R` – calculation of risk ratios for tables.
 ```
 
 ---
