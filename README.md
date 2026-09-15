@@ -1,6 +1,11 @@
 # Target Trial Emulation of Selexipag Initiation in Pulmonary Arterial Hypertension
 
-![License](https://img.shields.io/badge/license-MIT-greeng.shields.io/badge/language-R-blue
+
+## Overview
+
+This repository contains the analysis code used to evaluate the long-term effect of Selexipag initiation on all-cause mortality among patients with idiopathic and heritable pulmonary arterial hypertension (PAH) using a target trial emulation framework.
+
+# Overview
 
 ## Overview
 
