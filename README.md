@@ -1,6 +1,6 @@
-https://img.shields.io/badge/license-MIT-green
-https://img.shields.io/badge/language-R-blue
 # Target Trial Emulation of Selexipag Initiation in Pulmonary Arterial Hypertension
+
+![License](https://img.shields.io/badge/license-MIT-greeng.shields.io/badge/language-R-blue
 
 ## Overview
 
