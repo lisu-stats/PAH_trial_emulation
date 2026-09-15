@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Target Trial Emulation of Selexipag Initiation in Pulmonary Arterial Hypertension"
+message: "If you use this software, please cite both the repository and the associated manuscript."
+type: software
+
+authors:
+  - family-names: Su
+    given-names: Li
+
+license: MIT
+
+keywords:
+  - target trial emulation
+  - causal inference
+  - LTMLE
+  - pulmonary arterial hypertension
+  - Selexipag
+
+abstract: >
+  Reproducible analysis code for a target trial emulation
+  evaluating the effect of Selexipag initiation on long-term
+  mortality among patients with idiopathic and heritable PAH.
+
+version: "1.0.0"
