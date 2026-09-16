@@ -95,16 +95,14 @@ Researchers interested in accessing the underlying data should contact Professor
 
 ## Software Requirements
 
-The analyses were conducted in R.
+The analyses were conducted in R (4.6).
 
 Main packages include:
 
 ```r
 ltmle
 SuperLearner
-data.table
 dplyr
-tidyverse
 ggplot2
 parallel
 ```
