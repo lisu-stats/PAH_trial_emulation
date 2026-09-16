@@ -1,11 +1,7 @@
 # Target Trial Emulation of Selexipag Initiation in Pulmonary Arterial Hypertension
 
 
-## Overview
 
-This repository contains the analysis code used to evaluate the long-term effect of Selexipag initiation on all-cause mortality among patients with idiopathic and heritable pulmonary arterial hypertension (PAH) using a target trial emulation framework.
-
-# Overview
 
 ## Overview
 
