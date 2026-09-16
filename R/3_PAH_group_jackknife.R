@@ -39,12 +39,7 @@ gj_worker <- function(g, data, regimes, groups, coef_names) {
 }
 
 
-# G=20
-# n=743
-# groups <- sample(rep(1:G, length.out = n))
-# 
-# 
-# gj_worker(1, wide_df_ltmle, regimes, groups, coef.names )
+
 
 grouped_jackknife_ltmleMSM <- function(data, regimes, G = NULL, ncores = 4,
                                        coef_names = NULL) {
