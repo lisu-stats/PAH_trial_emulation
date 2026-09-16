@@ -125,16 +125,7 @@ source("R/5_make_forest_plots.R")
 source("R/6_PAH_risk_ratios.R")
 ```
 
-### Script overview
 
-- `0_PAH_datamanip.R` – data cleaning and longitudinal data preparation.
-- `1_PAH_LTMLE_preparation.R` – construction of treatment, censoring, and covariate histories for LTMLE.
-- `2_PAH_LTMLE_modelfit.R` – primary LTMLE analyses and marginal structural model estimation and subgroup analyese.
-- `3_PAH_group_jackknife.R` – grouped jackknife variance estimation and confidence intervals.
-- `4_PAH_sensitivity_analysis.R` – sensitivity analyses using E-values.
-- `5_make_forest_plots.R` – generation of figures used in the manuscript and supplementary materials.
-- `6_PAH_risk_ratios.R` – calculation of risk ratios for tables.
-```
 
 ---
 
