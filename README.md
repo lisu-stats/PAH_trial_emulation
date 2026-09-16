@@ -108,6 +108,8 @@ tidyverse
 ggplot2
 parallel
 ```
+Additional packages may be required depending on the local computing environment.
+
 
 ---
 
