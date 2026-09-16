@@ -52,7 +52,7 @@ Manuscript currently in preparation.
 | `0_PAH_datamanip.R` | Data cleaning, harmonisation, and longitudinal dataset construction |
 | `1_PAH_LTMLE_preparation.R` | Preparation of covariates, treatment indicators, censoring variables, and LTMLE inputs |
 | `2_PAH_LTMLE_modelfit.R` | Main LTMLE analyses and marginal structural model estimation; subgroup analyses |
-| `3_PAH_group_jackknife.R` | Delete-a-group jackknife variance estimation and confidence intervals |
+| `3_PAH_group_jackknife.R` | Delete-a-group jackknife variance estimation and confidence intervals; create results tables |
 | `4_PAH_sensitivity_analysis.R` | Sensitivity analyses using E-values |
 | `5_PAH_forest_plots.R` | Generation of manuscript and supplementary figures |
 | `6_PAH_risk_ratios.R` | Calculation of risk ratios from primary analysis results |
