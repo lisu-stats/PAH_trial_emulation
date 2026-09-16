@@ -1,7 +1,6 @@
-############################################################
-## Forest Plots for MSM Results (Main, Treat×Year, GRIPHON)
-## Save as: make_forest_plots.R
-############################################################
+########################################################################
+## Forest Plots for MSM Results (Main, Treat×Year, GRIPHON eligibility)
+########################################################################
 
 ## ===== 0) Libraries ==========================================================
 suppressPackageStartupMessages({
@@ -10,7 +9,7 @@ suppressPackageStartupMessages({
   library(scales)
 })
 
-## ===== 1) Global Export Settings ==============================================
+## ===== 1) Output Settings ==============================================
 IMAGE_FORMAT <- "tiff"  # Options: "tiff", "jpeg", "jpg", "png"
 IMAGE_DPI    <- 300     # High resolution for Word documents and publication
 
