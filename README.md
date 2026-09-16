@@ -38,7 +38,7 @@ Manuscript currently in preparation.
 │   ├── 2_PAH_LTMLE_modelfit.R
 │   ├── 3_PAH_group_jackknife.R
 │   ├── 4_PAH_sensitivity_analysis.R
-│   ├── 5_make_forest_plots.R
+│   ├── 5_PAH_forest_plots.R
 │   └── 6_PAH_risk_ratios.R
 ├── CITATION.cff
 ├── LICENSE
@@ -54,7 +54,7 @@ Manuscript currently in preparation.
 | `2_PAH_LTMLE_modelfit.R` | Main LTMLE analyses and marginal structural model estimation; subgroup analyses |
 | `3_PAH_group_jackknife.R` | Delete-a-group jackknife variance estimation and confidence intervals |
 | `4_PAH_sensitivity_analysis.R` | Sensitivity analyses using E-values |
-| `5_make_forest_plots.R` | Generation of manuscript and supplementary figures |
+| `5_PAH_forest_plots.R` | Generation of manuscript and supplementary figures |
 | `6_PAH_risk_ratios.R` | Calculation of risk ratios from primary analysis results |
 
 ---
@@ -117,7 +117,7 @@ source("R/1_PAH_LTMLE_preparation.R")
 source("R/2_PAH_LTMLE_modelfit.R")
 source("R/3_PAH_group_jackknife.R")
 source("R/4_PAH_sensitivity_analysis.R")
-source("R/5_make_forest_plots.R")
+source("R/5_PAH_forest_plots.R")
 source("R/6_PAH_risk_ratios.R")
 ```
 
