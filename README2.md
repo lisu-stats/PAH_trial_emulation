@@ -11,10 +11,8 @@ The study compares two treatment strategies:
 
 The primary analysis uses:
 
-- Longitudinal Targeted Maximum Likelihood Estimation (LTMLE)
-- Super Learner ensemble modelling
-- Marginal Structural Models (MSMs)
-- Delete-a-group jackknife inference
+- Marginal structural models (MSMs) estimated by longitudinal targeted maximum likelihood estimation (LTMLE) with Super Learner ensemble for nuisance model estimation
+- Delete-a-group jackknife for inference
 
 ---
 
