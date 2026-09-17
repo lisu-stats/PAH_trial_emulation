@@ -85,7 +85,7 @@ The patient-level data used in this project cannot be shared publicly because of
 
 This repository contains analysis code only.
 
-Researchers interested in accessing the analysis data should contact Professor Mark Toshner (mrt34@cam.ac.uk) and comply with all applicable governance and ethics requirements.
+Data are available upon reasonable request and subject to local laws, approvals and institutional requirements, for more information contact Professor Mark Toshner (mrt34@cam.ac.uk).
 
 ---
 
